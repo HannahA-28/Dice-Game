@@ -185,16 +185,14 @@
             Console.WriteLine();
             while (true)
             {
-                Console.Write("Type 'exit' to stop, or any other key to continue: ");
+                Console.Write("Type 'exit' to quit or any other key to keep playing: ");
                 if (Console.ReadLine().ToLower() == "exit")
                 {
                     break;
                 }
-              
             }
-
         }
     }
-    }
+}
 
 
